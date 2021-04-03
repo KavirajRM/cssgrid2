@@ -1,0 +1,109 @@
+.srinagar {
+  background-image: url("srinagar.jpg");
+  grid-area: srinagar;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.varanasi {
+  background-image: url("varanasi.jpg");
+  grid-area: varanasi;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.spiti {
+  background-image: url("spiti.jpg");
+  grid-area: spiti;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+  margin-top: 10vh;
+}
+
+.ajanta {
+  background-image: url("Ajanta.jpg");
+  grid-area: ajanta;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.rajasthan {
+  background-image: url("rajasthan.jpg");
+  grid-area: rajasthan;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.konark {
+  background-image: url("konark.jpg");
+  grid-area: konark;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.8fr 1.2fr 0.8fr 0.6fr 0.4fr 0.2fr 1fr;
+  grid-template-areas:
+    ". . srinagar ."
+    ". spiti srinagar varanasi"
+    "ajanta spiti konark varanasi"
+    "ajanta spiti konark ."
+    "ajanta rajasthan konark ."
+    "ajanta rajasthan . ."
+    ". rajasthan . .";
+  grid-gap: 2rem;
+  margin-right: 0px;
+  position: fixed;
+  top: 20vh;
+  right: 1vh;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr 0.4fr;
+    grid-template-areas:
+      "srinagar varanasi"
+      "spiti konark"
+      "ajanta rajasthan";
+    position: relative;
+    top: 0;
+  }
+  .spiti {
+    margin-top: 0;
+  }
+  .text1 {
+    margin-left: 0 !important;
+  }
+}
+
+.text1 {
+  padding: 2%;
+  margin-left: 10vh;
+}
+
+.discover {
+  font-weight: 1000;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.india {
+  color: crimson;
+}
+
+p {
+  font-size: 15px;
+}

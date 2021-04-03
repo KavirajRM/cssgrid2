@@ -1,0 +1,15 @@
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text1">
+      <h1>Discover the perfect destinations in India</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+        reprehenderit reiciendis nobis soluta dolore dolorem in temporibus
+        sapiente odio nam pariatur, incidunt fugit minus? Laudantium, ullam sed
+        enim ad doloremque repudiandae, est libero cumque blanditiis, quibusdam
+        illo beatae! Officia architecto placeat alias excepturi explicabo quasi
+        pariatur amet itaque, odio nulla.
+      </p>
+      <br />
+      <button type="button" class="btn btn-info btn-lg btn-xl">
+        Enquire Now ->
+      </button>
+    </div>
